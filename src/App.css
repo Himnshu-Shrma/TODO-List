@@ -1,0 +1,126 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: xxx-large;
+}
+.body{
+  background-color: #d8dbdc;
+  min-height: 80vh;
+  font-family: 'Roboto Slab', serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+#inp{
+  height: 50px;
+  width: 300px;
+  border:0;
+  line-height: 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+.add-btn{
+  align-items: center;
+  background: #CEEDC7;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+  margin: 2rem;
+  padding: 2vh;
+}
+.add-btn:hover{
+  background-color:#C8FFD4;
+}
+.rmv-btn{
+  align-items: center;
+  background: #B8E8FC;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 30px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+  /* background-color:rgb(18, 225, 233);
+  border:#282c34 ;
+  border-radius: 2rem;
+  width: 122px;
+  height: 42px;
+  size: 5vh;
+  padding: 5px;
+} */
+.rmv-btn:hover{
+  background-color:#CDFCF6;
+}
+.listData{
+  font-size: medium;
+  padding-right: 4px;
+  padding-top: 6px;
+  margin:0;
+  text-align:left;
+  color: black;
+  min-width: 250px;
+  max-height: 42px;
+  background-color:none;
+  font-size: large;
+  
+}
+
+.itemList{
+  display: flex;
+  flex-direction:row;
+}
+.label{
+  margin: 2vh;
+}
